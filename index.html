@@ -29,7 +29,24 @@
                 </ul>
             </div>
             <a class="enter" href="#">Comenzar</a>
+            <div id="hamburger" class="container" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </header>
+
+        <div id="myNav" class="overlay index-2">
+            <div class="overlay-content2"></div>
+            <div class="overlay-content1 ">
+              <a href="index" onclick="openNav()">Inicio</a>
+              <a href="conocenos" onclick="openNav()">Conócenos</a>
+              <a href="servicios" onclick="openNav()">Servicios </a>
+              <a href="contacto" onclick="openNav()">Contacto</a>
+              <h5 style="margin-top: 250px;">&copy; We Can Foundation</h5>
+            </div>
+        </div>
+
         <div class="intro">
             <div class="dataCont">
                 <p>La mejor plataforma para tu</p>
@@ -69,7 +86,7 @@
                     verídica sobre distintos temas de la salud mental.</p>
                 <a class="goTo activities" href="#">Ir a actividades</a>
             </div>
-            <img alt="Info" src="./Assets/activitiesWeCan.png" style="width: 30%;"/>
+            <img class="activitiesImg" alt="Info" src="./Assets/activitiesWeCan.png" />
         </div>
         <!--Wavy-SVG02-->
         <div style="height: 100px; overflow: hidden;" >
@@ -105,12 +122,12 @@
                         <img alt="Logo" src="./Assets/logo_146x.png"/>
                         <h2 style="color: rgb(131, 180, 221)">We Can</h2>
                     </div>
-                    <div class="memberSocialIcons">
-                        <a href="#"><i style="font-size: 30px; color:#4daec9; margin: 5px;" class="fab fa-instagram insta"></i></a>
-                        <a href="#"><i style="font-size: 30px; color:#4daec9; margin: 5px;" class="fab fa-linkedin linkedin"></i></a>
-                        <a href="#"><i style="font-size: 30px; color:#4daec9;  margin: 5px;" class="fab fa-facebook-square fb"></i></a>
+                    <div class="memberSocialIcons ">
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-instagram insta"></i></a>
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-linkedin linkedin"></i></a>
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-facebook-square fb"></i></a>
                     </div>
-                    <ul>
+                    <ul class="footSocial">
                         <li><a href="./index.html">Inicio</a></li>
                         <li><a href="#">Conócenos</a></li>
                         <li><a href="#news">Servicios</a></li>
@@ -125,11 +142,14 @@
                     <p>Soporte</p>
                 </div>
                 <div class="footerColumn">
-                    <h3>Contacto</h3>
-                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
+                    <div>
+                        <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
                     <span style="display: inline-block;;">+55 23986523</span>
-                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
-                    <span>wecan.foundation0@gmail.com</span>
+                    </div>
+                    <div>
+                        <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
+                        <span>wecan.foundation0@gmail.com</span>
+                    </div>
                     <form style="margin: 20px 0;">
                         <button class="subscribe" type="submit">Suscribirse</button>
                         <input class="inputSubs" type="email" name="email" placeholder="correo electrónico"/>

@@ -32,28 +32,28 @@
         </header>
         
 
-        <div class="contactCont">
-            <form style="width: 40%;">
+       <div class="contactCont">
+            <div class="contactInfoCont">
                 <h2>Contáctanos</h2>
-                <label>Nombre:</label>
-                <input type="text" name="name" placeholder="Nombre completo"/>
-                <br/><br/>
-
-                <label>E-Mail :</label>
-                <input type="email" name="email" placeholder="Correo electrónico"/>
-                <br/><br/>
-                <textarea type="text" name="message" placeholder="Mensaje"></textarea>
-                <br/>
-
-                <button class="subscribe" type="submit">Enviar mensaje</button><br/><br/>
-
-                <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
+                <form>
+                    <input type="text" name="name" placeholder="Nombre completo"/>
+                    
+                    <input type="email" name="email" placeholder="Correo electrónico"/>
+                    
+                    <textarea type="text" name="message" placeholder="Mensaje"></textarea>
+                    
+                    <button class="subscribe" type="submit">Enviar mensaje</button>
+                </form>
+                <div>
+                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
                 <span style="display: inline-block;;">+55 23986523</span>
-                <br/><br/>
-                <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
-                <span>wecan.foundation0@gmail.com</span>
-
-            </form>
+                </div>
+                <div>
+                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
+                    <span>wecan.foundation0@gmail.com</span>
+                </div>
+                    
+            </div>
             <div class="contactImgCont">
                 <img alt="Contact" src="./Assets/contact.png"/>
             </div>
@@ -74,12 +74,12 @@
                         <img alt="Logo" src="./Assets/logo_146x.png"/>
                         <h2 style="color: rgb(131, 180, 221)">We Can</h2>
                     </div>
-                    <div class="memberSocialIcons">
-                        <a href="#"><i style="font-size: 30px; color:#4daec9; margin: 5px;" class="fab fa-instagram insta"></i></a>
-                        <a href="#"><i style="font-size: 30px; color:#4daec9; margin: 5px;" class="fab fa-linkedin linkedin"></i></a>
-                        <a href="#"><i style="font-size: 30px; color:#4daec9;  margin: 5px;" class="fab fa-facebook-square fb"></i></a>
+                    <div class="memberSocialIcons ">
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-instagram insta"></i></a>
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-linkedin linkedin"></i></a>
+                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-facebook-square fb"></i></a>
                     </div>
-                    <ul>
+                    <ul class="footSocial">
                         <li><a href="./index.html">Inicio</a></li>
                         <li><a href="#">Conócenos</a></li>
                         <li><a href="#news">Servicios</a></li>
@@ -94,11 +94,14 @@
                     <p>Soporte</p>
                 </div>
                 <div class="footerColumn">
-                    <h3>Contacto</h3>
-                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
+                    <div>
+                        <i style="font-size: 25px; color:#3f9bb4; margin: 5px; display: inline-block;" class="fas fa-phone-alt"></i>
                     <span style="display: inline-block;;">+55 23986523</span>
-                    <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
-                    <span>wecan.foundation0@gmail.com</span>
+                    </div>
+                    <div>
+                        <i style="font-size: 25px; color:#3f9bb4; margin: 5px;" class="fas fa-envelope"></i>
+                        <span>wecan.foundation0@gmail.com</span>
+                    </div>
                     <form style="margin: 20px 0;">
                         <button class="subscribe" type="submit">Suscribirse</button>
                         <input class="inputSubs" type="email" name="email" placeholder="correo electrónico"/>
