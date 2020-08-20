@@ -29,11 +29,28 @@
                 </ul>
             </div>
             <a class="enter" href="#">Comenzar</a>
+            <div id="hamburger" class="container" onclick="openNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </header>
-        <div class="aboutIntroCont" >
-            <img alt="Intro About" src="./Assets/mentalHealth01.png"/>
-            <img alt="Intro About" src="./Assets/mentalHealth02.png"/>
+
+        <div id="myNav" class="overlay index-2">
+            <div class="overlay-content2"></div>
+            <div class="overlay-content1 ">
+              <a href="index" onclick="openNav()">Inicio</a>
+              <a href="conocenos" onclick="openNav()">Conócenos</a>
+              <a href="services" onclick="openNav()">Servicios </a>
+              <a href="contacto" onclick="openNav()">Contacto</a>
+              <h5 style="margin-top: 250px;">&copy; We Can Foundation</h5>
+            </div>
         </div>
+
+        <div class="aboutIntroCont" >
+            <img alt="Intro About" src="./Assets/mentalHealth.png"/>
+        </div>
+        <!--Wave 1-->
         <div style="height: 80px; overflow: hidden;" >
             <svg viewBox="0 0 500 80" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path 
@@ -41,6 +58,7 @@
                     style="stroke: none; fill: rgb(217, 236, 255);"></path>
             </svg>
         </div>
+        <!--About Content-->
         <div class="initialMessage">
             <h1>Buscamos mejorar la salud mental y emocional de todos nuestros usuarios.</h1>
             <p>Mediante un sistema personalizado de terapias, divulgación de datos e información 
@@ -55,15 +73,15 @@
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="valueCard">
-                <img alt="Icon" src="./Assets/phylosophyIcon.png"/>
-                <h3>Filosofía</h3>
+                <img alt="Icon" src="./Assets/visionIcon.png"/>
+                <h3>Visión</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="valueCard">
-                <img alt="Icon" src="./Assets/visionIcon.png"/>
-                <h3>Visión</h3>
+                <img alt="Icon" src="./Assets/phylosophyIcon.png"/>
+                <h3>Filosofía</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -73,15 +91,15 @@
             <h1>Nuestro equipo</h1>
         </div>
 
-        <div class="rowInfoCont teamCont" >
+        <div class="memberInfoCont teamCont" >
             <div class="memberCont">
                 <img alt="member" src="./Assets/journalist.png"/>
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
-                <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                <div class=" memberSocialIcons ">
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -89,9 +107,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -99,9 +117,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -109,9 +127,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -119,9 +137,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -129,22 +147,22 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
         </div>
 
-        <div class="rowInfoCont teamCont" >
+        <div class="memberInfoCont teamCont" >
             <div class="memberCont">
                 <img alt="member" src="./Assets/writer.png"/>
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -152,9 +170,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -162,9 +180,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -172,9 +190,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -182,9 +200,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
             <div class="memberCont">
@@ -192,9 +210,9 @@
                 <p style="color:#838383; font-weight: normal;">Richard Branson</p>
                 <p style="color:#7ab8c2; font-weight: normal;">Direccion</p>
                 <div class="memberSocialIcons">
-                    <a href="#"><i class="fab fa-instagram insta"></i></a>
-                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square fb"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-instagram insta"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                    <a class="memberMedia" href="#"><i class="fab fa-facebook-square fb"></i></a>
                 </div>
             </div>
         </div>
@@ -214,16 +232,10 @@
                         <h2 style="color: rgb(131, 180, 221)">We Can</h2>
                     </div>
                     <div class="memberSocialIcons ">
-                        <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-instagram insta"></i></a>
+                        <a target="blank" href="https://www.instagram.com/wecanfoundationmx/"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-instagram insta"></i></a>
                         <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-linkedin linkedin"></i></a>
                         <a href="#"><i style="font-size: 40px; color:#4daec9; margin: 7px;" class="fab fa-facebook-square fb"></i></a>
                     </div>
-                    <ul class="footSocial">
-                        <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="#">Conócenos</a></li>
-                        <li><a href="#news">Servicios</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
                 </div>
                 <div class="footerColumn" >
                     <h3>Políticas</h3>

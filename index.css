@@ -362,7 +362,7 @@ h1{
 /*____________________________________ABOUT___________________________________*/
 
 .aboutIntroCont{
-    height: 60vh;
+    height: 40vh;
     background-color: rgb(217, 236, 255);
     display: flex;
     flex-direction: row;
@@ -429,6 +429,14 @@ h1{
 .valueCard p{
     color: rgb(167, 167, 167);
     font-weight: normal;
+}
+
+.memberInfoCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3%;
 }
 
 .teamCont h1{
@@ -770,5 +778,92 @@ footer p{
     li{
         display: block;
     }
+    .aboutIntroCont img{
+        width: 95%;
+        height: auto;
+    }
+    .initialMessage h1{
+        font-size: 2em;
+    }
+    
+    .initialMessage p{
+        font-size: 1em;
+        margin: 5%;
+    }
+    .valuesCont{
+        flex-direction: column;
+        padding: 6%;
+    }
+    .valueCard{
+        width: 260px;
+        height: 300px;
+        margin: 15px 0;
+    }
+    .teamCont{
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .memberCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .memberCont img{
+        width: 50px;
+    }
+
+    .memberCont p{
+        font-size: 10px;
+    }
+    
+    .memberMedia{
+        display: none;
+    }
+    .flexRow{
+        display: flex;
+        flex-direction: column;
+    }
+    .memberInfoCont{
+        justify-content: center;
+    }
+    .contactCont{
+        height: fit-content;
+        flex-direction: column-reverse;
+        margin: 0 0 15px 0;
+    }
+    .contactImgCont{
+        width: 100%;
+        background-color: rgb(205, 237, 255);
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .contactImgCont img{
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .contactInfoCont{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    
+    .contactCont textarea{
+        width: 250px;
+    }
+
+    .contactCont input{
+        width: 250px;
+    }
 }
+
 
