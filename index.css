@@ -362,7 +362,7 @@ h1{
 /*____________________________________ABOUT___________________________________*/
 
 .aboutIntroCont{
-    height: 40vh;
+    height: 60vh;
     background-color: rgb(217, 236, 255);
     display: flex;
     flex-direction: row;
@@ -777,6 +777,9 @@ footer p{
     }
     li{
         display: block;
+    }
+    .aboutIntroCont{
+        height: 40vh;
     }
     .aboutIntroCont img{
         width: 95%;
